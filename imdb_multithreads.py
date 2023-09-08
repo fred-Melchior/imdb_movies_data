@@ -20,7 +20,7 @@ def extract_movie_details(movie_link):
         date = None
 
         movie_data = movie_soup.find('div', attrs={'class': 'sc-dffc6c81-0 iwmAVw'})
-        # movie_data = movie_soup.find('div', attrs={'class': 'ipc-metadata-list-summary-item__tc'})
+        
 
         
 
